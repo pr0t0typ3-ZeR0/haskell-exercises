@@ -1,0 +1,25 @@
+#+TITLE: Solve Me First
+https://www.hackerrank.com/challenges/solve-me-first/problem
+
+* Problem
+Complete the function solveMeFirst to compute the sum of two integers.
+
+* Return Values
+** sum of the above two integers
+
+* Sample Input
+#+BEGIN_SRC
+2
+3
+#+END_SRC
+
+* Sample Output
+#+BEGIN_SRC
+5
+#+END_SRC
+
+* Code
+#+BEGIN_SRC haskell
+main :: IO()
+main = interact $ show . sum . map read . words
+#+END_SRC

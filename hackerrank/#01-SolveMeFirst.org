@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/solve-me-first/problem
 Complete the function solveMeFirst to compute the sum of two integers.
 
 * Return Values
-** sum of the above two integers
+Sum of the above two integers
 
 * Sample Input
 #+BEGIN_SRC
